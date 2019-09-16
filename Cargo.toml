@@ -1,0 +1,15 @@
+[package]
+name = "gitver"
+version = "0.1.0"
+authors = ["Tony Olagbaiye <frony0@gmail.com>"]
+edition = "2018"
+description = "A proc-macro for determining the current git ref at build-time"
+repository = "https://github.com/bqv/gitver"
+license = "MPL-2.0"
+
+[lib]
+name = "gitver"
+proc-macro = true
+
+[dependencies]
+quote = "*"
